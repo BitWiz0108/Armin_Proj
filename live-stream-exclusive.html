@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Armin Van Buuren</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="assets/css/bundle.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link rel="preconnect" href="assets/vendor/jquery.equalizer.css" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+</head>
+
+
+<body data-active-page="live">
+	<div class="wrapper">
+		<div class="section section--stream">
+			<div class="section__aside">
+				<div class="section__aside-head">
+	<a href="#" class="nav-trigger js-nav-trigger">
+		<img width="25" height="23" src="assets/images/icos/hamburger-menu.svg" alt="hamburger-menu">
+	</a>
+</div><!-- /.section__aside-head -->
+
+<div class="section__aside-logo">
+	<a href="login.html" class="logo">
+		<img src="assets/images/logo.png" srcset="assets/images/logo.png 1x, assets/images/logo@2x.png 2x" alt="armin van buuren loго">
+	</a>
+</div><!-- /.section__aside-head -->
+
+<div class="section__aside-nav">
+	<nav class="nav">
+	<ul>
+		<li data-id="home">
+			<a href="login.html">
+				<img src="assets/images/icos/ico-home.svg" alt="ico" width="27" height="29">
+				Home
+			</a>
+		</li>
+
+		<li data-id="music">
+			<a href="music-category.html">
+				<img src="assets/images/icos/ico-music.svg" alt="ico" width="22" height="22">
+				Music
+			</a>
+		</li>
+
+		<li data-id="live">
+			<a href="live-stream.html">
+				<img src="assets/images/icos/ico-live.svg" alt="ico" width="17.6" height="29.4">
+
+				Live Streams
+			</a>
+		</li>
+
+		<li data-id="gallery">
+			<a href="gallery.html">
+				<img src="assets/images/icos/ico-videos.svg" alt="ico" width="19" height="22">
+				Gallery
+			</a>
+		</li>
+
+		<li data-id="fanclub">
+			<a href="fan-club.html">
+				<img src="assets/images/icos/ico-fanclub.svg" alt="ico" width="32" height="26">
+				Fan Club
+			</a>
+		</li>
+
+		<li data-id="settings">
+			<a href="settings.html">
+				<img src="assets/images/icos/ico-download.svg" alt="ico" width="24" height="24">
+				Settings
+			</a>
+		</li>
+
+		<li data-id="share">
+			<a href="share.html">
+				<img src="assets/images/icos/ico-share.svg" alt="ico" width="23" height="25">
+
+				Share
+			</a>
+		</li>
+	</ul>
+</nav>
+</div><!-- /.section__aside-nav -->
+
+<div class="section__aside-access">
+	<nav class="nav-access">
+		<ul>
+			<li>
+				<a href="login.html">Login</a>
+			</li>
+		
+			<li>
+				<a href="sign-up.html">Sign Up</a>
+			</li>
+		</ul>
+	</nav><!-- /.nav-access -->
+</div><!-- /.section__aside-nav -->
+
+<div class="section__aside-logos">
+	<ul class="list-logos">
+		<li>
+			<a href="#">
+				<img src="assets/images/apple-store.png" srcset="assets/images/apple-store.png 1x, assets/images/apple-store@2x.png 2x" alt="apple-store">
+			</a>
+		</li>
+	
+		<li>
+			<a href="#">
+				<img src="assets/images/google-store.png" srcset="assets/images/google-store.png 1x, assets/images/google-store@2x.png 2x" alt="google-store">
+			</a>
+		</li>
+	</ul>
+</div><!-- /.section__aside-nav -->
+
+<div class="section__aside-foot">
+	<p class="copyright">
+		<span>POWERED BY</span>
+
+		<img src="assets/images/TM.png" srcset="assets/images/TM.png 1x, assets/images/TM@2x.png 2x" alt="TM">
+	</p><!-- /.copyright -->
+</div><!-- /.section__aside-foot -->
+
+			</div><!-- /.section__aside -->
+
+			<div class="section__main">
+				<div class="section__main-inner">
+					<div class="player js-player-streams" data="assets/data/live-stream-exclusive.json">
+						<div class="player__head">
+							<a href="live-stream.html" class="checkbox-wrapper">
+								<p>Exclusive</p>
+								
+								<div class="checkbox checkbox--bordered">
+									<input type="checkbox" name="check-2" id="check-2" checked="">
+									
+									<label for="check-2"><span></span></label>
+								</div><!-- /.checkbox -->
+							</a><!-- /.checkbox-wrapper -->
+
+							<h1>Armin <strong>Live Streams</strong></h1>
+							<h6>12 concerts, 14 hours</h6>
+						</div><!-- /.player__head -->
+
+						<div class="player__media">
+							<video loop="" muted="" playsinline="">
+								<source src="" type="video/mp4">
+							</video>
+
+							<div class="player__media-content">
+								<h4>ARMIN VAN BUUREN</h4>
+
+								<h1>LIVE AT ANGEL STADIUM</h1>
+
+								<h5>NEXT LIVE STREAM 5.1.23</h5>
+
+								<a href="#" class="btn-ico btn-ico--blue btn-ico--play js-full-screen"><!-- is-played -->
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="24px">
+										<path fill-rule="evenodd" d="M16.639,10.388 L2.423,0.694 C2.203,0.545 1.958,0.470 1.713,0.470 C1.467,0.470 1.222,0.545 1.002,0.694 C0.562,0.995 0.291,1.549 0.291,2.149 L0.291,21.535 C0.291,22.136 	0.562,22.690 1.002,22.990 C1.222,23.139 1.467,23.215 1.713,23.215 C1.958,23.215 2.203,23.140 2.423,22.990 L16.639,13.297 C17.079,12.997 17.350,12.443 17.350,11.842 	C17.350,11.242 17.079,10.688 16.639,10.388 Z"></path>
+									</svg>
+								
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="24px">
+										<path fill-rule="evenodd" d="M14.242,23.209 L14.242,0.464 L19.929,0.464 L19.929,23.209 L14.242,23.209 ZM0.026,0.464 L5.713,0.464 L5.713,23.209 L0.026,23.209 L0.026,0.464 Z"></path>
+									</svg>
+								</a>
+							</div><!-- /.player__media-content -->
+						</div><!-- /.player__media -->
+
+						<div class="player__content js-scroll-hor">
+							<div class="player__scroll js-append-content">
+								<!-- // Js AppendContent -->
+							</div><!-- /.player__scroll -->
+						</div><!-- /.player__content -->
+
+						<div class="player__foot">
+							<div class="fullscreen-video">
+								<video loop="" muted="">
+									<source src="" type="video/mp4">
+								</video>
+							</div><!-- /.fullscreen-video -->
+
+							<div class="widget-player">
+								<div class="widget__logo">
+									<a href="#" class="logo">
+										<img src="assets/images/logo.png" srcset="assets/images/logo.png 1x, assets/images/logo@2x.png 2x" alt="armin van buuren loго">
+									</a>
+								</div><!-- /.widget__logo -->
+								
+								<div class="widget__media">
+									<img src="assets/images/widget-preview.jpg" alt="widget">
+								</div><!-- /.widget__media -->
+
+								<div class="widget__main">
+									<div class="widget__progress" style="--progress: 67"></div><!-- /.widget__progress -->
+
+									<div class="widget__aside">
+										<div class="progress-ico js-play-list" style="--progress: 0">
+											<a href="#" class="btn-ico js-full-screen">
+												<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27px" height="21px">
+												<path fill-rule="evenodd" d="M25.321,20.356 L9.153,20.356 C8.705,20.356 8.342,19.993 8.342,19.546 L8.342,17.932 C8.342,17.484 8.705,17.122 9.153,17.122 L25.321,17.122 C25.768,17.122 26.131,17.484 26.131,17.932 L26.131,19.546 C26.131,19.993 25.768,20.356 25.321,20.356 ZM25.321,12.270 L9.153,12.270 C8.705,12.270 8.342,11.907 8.342,11.460 L8.342,9.846 C8.342,9.399 8.705,9.036 9.153,9.036 L25.321,9.036 C25.768,9.036 26.131,9.399 26.131,9.846 L26.131,11.460 C26.131,11.907 25.768,12.270 25.321,12.270 ZM25.321,4.184 L9.153,4.184 C8.705,4.184 8.342,3.822 8.342,3.374 L8.342,1.760 C8.342,1.313 8.705,0.950 9.153,0.950 L25.321,0.950 C25.768,0.950 26.131,1.313 26.131,1.760 L26.131,3.374 C26.131,3.822 25.768,4.184 25.321,4.184 ZM4.298,20.356 L1.067,20.356 C0.619,20.356 0.257,19.993 0.257,19.546 L0.257,17.932 C0.257,17.484 0.619,17.122 1.067,17.122 L4.298,17.122 C4.745,17.122 5.108,17.484 5.108,17.932 L5.108,19.546 C5.108,19.993 4.745,20.356 4.298,20.356 ZM4.298,12.270 L1.067,12.270 C0.619,12.270 0.257,11.907 0.257,11.460 L0.257,9.846 C0.257,9.399 0.619,9.036 1.067,9.036 L4.298,9.036 C4.745,9.036 5.108,9.399 5.108,9.846 L5.108,11.460 C5.108,11.907 4.745,12.270 4.298,12.270 ZM4.298,4.184 L1.067,4.184 C0.619,4.184 0.257,3.822 0.257,3.374 L0.257,1.760 C0.257,1.313 0.619,0.950 1.067,0.950 L4.298,0.950 C4.745,0.950 5.108,1.313 5.108,1.760 L5.108,3.374 C5.108,3.822 4.745,4.184 4.298,4.184 Z"></path>
+												</svg>
+											</a>
+										</div><!-- /.ico-progres -->
+									</div><!-- /.widget__aside -->
+									
+									<div class="widget__content">
+										<h4>Live At Angel Stadium</h4>
+										<h6>ARMIN VAN BUUREN <span>*Live now</span></h6>
+									</div><!-- /.widget__content -->
+									
+									<div class="widget__actions">
+										<div class="play-block">
+											<a href="#" class="btn-ico btn-ico--small js-btn-p-prev">
+												<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17px" height="14px">
+													<path fill-rule="evenodd" d="M15.695,13.110 C15.576,13.194 15.444,13.237 15.311,13.237 C15.178,13.237 15.045,13.195 14.926,13.110 L7.229,7.658 C6.991,7.489 6.844,7.178 6.844,6.840 C6.844,6.502 6.991,6.191 7.229,6.022 L14.926,0.569 C15.045,0.485 15.178,0.443 15.311,0.443 C15.444,0.443 15.576,0.485 15.695,0.569 C15.934,0.738 16.080,1.050 16.080,1.387 L16.080,12.292 C16.080,12.630 15.934,12.942 15.695,13.110 ZM0.443,0.440 L3.286,0.440 L3.286,13.234 L0.443,13.234 L0.443,0.440 Z"></path>
+												</svg>
+											</a>
+
+											<a href="#" class="btn-ico btn-ico--blue btn-ico--play btn-ico--big js-full-screen"><!-- is-played -->
+												<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="24px">
+													<path fill-rule="evenodd" d="M16.639,10.388 L2.423,0.694 C2.203,0.545 1.958,0.470 1.713,0.470 C1.467,0.470 1.222,0.545 1.002,0.694 C0.562,0.995 0.291,1.549 0.291,2.149 L0.291,21.535 C0.291,22.136 	0.562,22.690 1.002,22.990 C1.222,23.139 1.467,23.215 1.713,23.215 C1.958,23.215 2.203,23.140 2.423,22.990 L16.639,13.297 C17.079,12.997 17.350,12.443 17.350,11.842 	C17.350,11.242 17.079,10.688 16.639,10.388 Z"></path>
+												</svg>
+
+												<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="24px">
+													<path fill-rule="evenodd" d="M14.242,23.209 L14.242,0.464 L19.929,0.464 L19.929,23.209 L14.242,23.209 ZM0.026,0.464 L5.713,0.464 L5.713,23.209 L0.026,23.209 L0.026,0.464 Z"></path>
+												</svg>
+											</a>
+
+											<a href="#" class="btn-ico btn-ico--small js-btn-p-next">
+												<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="14px">
+													<path fill-rule="evenodd" d="M12.802,13.234 L12.802,0.440 L15.645,0.440 L15.645,13.234 L12.802,13.234 ZM1.162,13.110 C1.043,13.195 0.910,13.237 0.777,13.237 C0.644,13.237 0.512,13.194 0.393,13.110 C0.154,12.942 0.008,12.630 0.008,12.292 L0.008,1.387 C0.008,1.050 0.154,0.738 0.393,0.569 C0.512,0.485 0.644,0.443 0.777,0.443 C0.910,0.443 1.043,0.485 1.162,0.569 L8.859,6.022 C9.098,6.191 9.244,6.502 9.244,6.840 C9.244,7.178 9.098,7.489 8.859,7.658 L1.162,13.110 Z"></path>
+												</svg>
+											</a>
+											
+											<div class="progress-ico progress-ico--volume visible-xs-inline-block" style="--progress: 0">
+												<div class="volume js-volume">
+	<a href="#" class="btn-ico">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="29px">
+			<path fill-rule="evenodd" d="M21.230,24.304 L19.812,22.897 C21.990,20.736 23.338,17.751 23.338,14.453 C23.338,11.156 21.990,8.171 19.811,6.010 L21.230,4.602 C23.772,7.123 25.344,10.606 25.344,14.453 C25.344,18.300 23.772,21.783 21.230,24.304 ZM17.683,20.786 L16.264,19.379 C17.535,18.118 18.321,16.377 18.321,14.453 C18.321,12.530 17.535,10.788 16.264,9.528 L17.683,8.121 C19.317,9.741 20.328,11.980 20.328,14.453 C20.328,16.927 19.317,19.166 17.683,20.786 ZM12.717,15.861 C13.081,15.501 13.305,15.003 13.305,14.453 C13.305,13.904 13.080,13.406 12.717,13.046 L14.136,11.639 C14.862,12.359 15.312,13.354 15.312,14.453 C15.312,15.553 14.862,16.548 14.136,17.268 L12.717,15.861 ZM4.276,18.434 L0.263,18.434 L0.263,10.473 L4.276,10.473 L8.289,6.493 L10.295,6.493 L10.295,22.415 L8.289,22.415 L4.276,18.434 Z"></path>
+		</svg>
+
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px" height="28px" viewBox="0 0 56 56">
+			<path fill-rule="evenodd" fill="rgb(135, 135, 135)" d="M37.729,47.809 L33.715,47.809 L23.683,37.858 L13.650,37.858 L13.650,21.012 L37.729,44.895 L37.729,47.809 ZM45.314,49.604 L5.821,10.433 C7.085,8.878 8.511,7.464 10.078,6.210 L49.570,45.382 C48.307,46.936 46.880,48.351 45.314,49.604 ZM33.715,8.005 L37.729,8.005 L37.729,30.822 L24.220,17.423 L33.715,8.005 Z"></path>
+		</svg>
+	</a>
+
+	<div class="volume__indicator">
+		<div class="volume__slider"></div><!-- /.volume__slider -->
+	</div><!-- /.volume__indicator -->
+</div><!-- /.volume -->
+
+											</div><!-- /.ico-progres -->
+										</div><!-- /.play-block -->
+									</div><!-- /.widget__actions -->
+
+
+									<div class="widget__options">
+										<a href="assets/popups/popup-settings.html" class="btn-ico js-show-popup">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.5 23.5"><path d="M13.04 23.5h-2.57c-.94 0-1.7-.76-1.7-1.7v-1.66l-.8-.31-1.21 1.14c-.64.64-1.76.64-2.4 0l-1.82-1.82c-.32-.32-.5-.75-.5-1.2s.18-.88.5-1.2l1.17-1.17-.34-.79-1.66-.04c-.94 0-1.7-.76-1.7-1.7v-2.57c0-.94.76-1.7 1.7-1.7h1.66l.31-.8-1.14-1.21c-.32-.32-.5-.75-.5-1.2s.18-.88.5-1.2l1.81-1.82c.64-.64 1.77-.64 2.41 0l1.17 1.17.78-.34.05-1.66c0-.94.76-1.7 1.7-1.7h2.57c.94 0 1.7.76 1.7 1.7v1.66l.8.31 1.21-1.14c.32-.32.75-.5 1.2-.5.46 0 .88.18 1.2.5l1.82 1.82c.32.32.5.75.5 1.2s-.18.88-.5 1.2l-1.17 1.17.35.78 1.66.05c.94 0 1.7.76 1.7 1.7v2.57c0 .94-.76 1.7-1.7 1.7h-1.66l-.31.8 1.14 1.21c.32.32.5.75.5 1.2s-.18.88-.5 1.2l-1.81 1.82c-.65.64-1.76.64-2.4 0l-1.18-1.18-.78.34-.05 1.66c0 .94-.76 1.7-1.7 1.7Zm-2.27-2h1.97v-1.36c0-.81.58-1.61 1.35-1.87l.69-.29c.19-.1.49-.17.79-.17.54 0 1.06.21 1.42.57l.96.96 1.39-1.4-.96-.96c-.57-.57-.73-1.55-.37-2.28l.28-.69c.23-.7 1.04-1.28 1.85-1.28h1.36v-1.97h-1.36c-.81 0-1.62-.58-1.87-1.35l-.29-.68c-.33-.66-.17-1.64.4-2.21l.97-.97-1.39-1.4-.96.96c-.56.56-1.56.73-2.28.37l-.69-.28c-.7-.23-1.28-1.04-1.28-1.85V1.99h-1.97v1.36c0 .81-.58 1.62-1.35 1.87l-.68.29c-.19.1-.49.17-.79.17-.54 0-1.06-.21-1.42-.57l-.96-.96-1.39 1.4.96.96c.57.58.73 1.55.37 2.28l-.28.68c-.23.71-1.04 1.29-1.85 1.29H2.02v1.97h1.37c.81 0 1.62.58 1.87 1.35l.29.69c.33.66.17 1.64-.4 2.21l-.96.96 1.39 1.4.96-.96c.56-.56 1.56-.73 2.28-.37l.69.28c.72.24 1.28 1.03 1.28 1.85v1.36Zm.99-5.36c-2.42 0-4.39-1.97-4.39-4.39s1.97-4.39 4.39-4.39 4.39 1.97 4.39 4.39-1.97 4.39-4.39 4.39Zm0-6.78a2.39 2.39 0 1 0 0 4.78 2.39 2.39 0 0 0 0-4.78Z"></path></svg>
+										</a>
+
+										<a href="assets/popups/popup-donation.html" class="btn-ico btn-ico--blue btn-ico--txt-dark js-show-popup">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760.43">
+											    <path d="m691.2,74.57C645.97,26.49,585.78,0,521.73,0c-51.76,0-100.95,17.26-141.81,49.21C339.26,17.32,290.2.08,238.52,0h-.28c-64.18,0-124.44,26.49-169.79,74.7-91.3,97.96-91.26,257,.1,354.56l283.62,302.26,55.44-52.01L124.01,377.27c-64.55-68.95-64.53-181.41-.06-250.6,30.7-32.66,71.29-50.63,114.28-50.63h.18c42.85.06,83.23,18.01,113.71,50.57l27.7,29.57,27.75-29.51c30.7-32.64,71.25-50.63,114.15-50.63s83.37,17.99,113.97,50.49c46.89,50.35,61.13,125.7,36.26,191.99l71.21,26.7c34.9-93.06,14.55-199.25-51.96-270.65Z"></path>
+											    <path class="cls-1" d="m569.89,418.25c20.96,0,38.02,17.06,38.02,38.02h76.04c0-49.5-31.88-91.31-76.04-107.05v-45.03h-76.04v45.03c-44.16,15.74-76.04,57.55-76.04,107.05,0,62.9,51.16,114.06,114.06,114.06,20.96,0,38.02,17.06,38.02,38.02s-17.06,38.02-38.02,38.02-38.02-17.06-38.02-38.02h-76.04c0,49.5,31.88,91.31,76.04,107.05v45.03h76.04v-45.03c44.16-15.74,76.04-57.55,76.04-107.05,0-62.9-51.16-114.06-114.06-114.06-20.96,0-38.02-17.06-38.02-38.02s17.06-38.02,38.02-38.02Z"></path>
+											</svg>
+										</a>
+
+										<div class="progress-ico progress-ico--volume hidden-xs" style="--progress: 0">
+											<div class="volume js-volume">
+	<a href="#" class="btn-ico">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="29px">
+			<path fill-rule="evenodd" d="M21.230,24.304 L19.812,22.897 C21.990,20.736 23.338,17.751 23.338,14.453 C23.338,11.156 21.990,8.171 19.811,6.010 L21.230,4.602 C23.772,7.123 25.344,10.606 25.344,14.453 C25.344,18.300 23.772,21.783 21.230,24.304 ZM17.683,20.786 L16.264,19.379 C17.535,18.118 18.321,16.377 18.321,14.453 C18.321,12.530 17.535,10.788 16.264,9.528 L17.683,8.121 C19.317,9.741 20.328,11.980 20.328,14.453 C20.328,16.927 19.317,19.166 17.683,20.786 ZM12.717,15.861 C13.081,15.501 13.305,15.003 13.305,14.453 C13.305,13.904 13.080,13.406 12.717,13.046 L14.136,11.639 C14.862,12.359 15.312,13.354 15.312,14.453 C15.312,15.553 14.862,16.548 14.136,17.268 L12.717,15.861 ZM4.276,18.434 L0.263,18.434 L0.263,10.473 L4.276,10.473 L8.289,6.493 L10.295,6.493 L10.295,22.415 L8.289,22.415 L4.276,18.434 Z"></path>
+		</svg>
+
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px" height="28px" viewBox="0 0 56 56">
+			<path fill-rule="evenodd" fill="rgb(135, 135, 135)" d="M37.729,47.809 L33.715,47.809 L23.683,37.858 L13.650,37.858 L13.650,21.012 L37.729,44.895 L37.729,47.809 ZM45.314,49.604 L5.821,10.433 C7.085,8.878 8.511,7.464 10.078,6.210 L49.570,45.382 C48.307,46.936 46.880,48.351 45.314,49.604 ZM33.715,8.005 L37.729,8.005 L37.729,30.822 L24.220,17.423 L33.715,8.005 Z"></path>
+		</svg>
+	</a>
+
+	<div class="volume__indicator">
+		<div class="volume__slider"></div><!-- /.volume__slider -->
+	</div><!-- /.volume__indicator -->
+</div><!-- /.volume -->
+
+										</div><!-- /.ico-progres -->
+									</div><!-- /.widget__options -->
+								</div><!-- /.widget__main -->
+							</div><!-- /.widget -->
+						</div><!-- /.player__foot -->
+					</div><!-- /.player -->
+				</div><!-- /.section__main-inner -->
+			</div><!-- /.section__main -->
+		</div><!-- /.section -->
+
+		
+	</div><!-- /.wrapper -->
+
+	<script src="assets/vendor/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+<script src="assets/vendor/audiovisualisierung.js"></script>
+<script src="assets/vendor/bufferloader.js"></script>
+<script src="assets/js/bundle.js"></script>
+<script src="assets/js/modules/fanclub.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

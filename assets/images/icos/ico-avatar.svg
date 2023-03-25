@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Isolation_Mode" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.85 3.01">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m1.43,0c.46,0,.83.37.83.83s-.37.83-.83.83-.83-.37-.83-.83.37-.83.83-.83h0Zm.78,1.43c.39.25.65.7.65,1.2,0,.13-.02.26-.05.38H.05c-.03-.12-.05-.25-.05-.38,0-.5.26-.94.65-1.2.14.29.43.49.78.49s.64-.2.78-.49h0Z"/>
+</svg>

@@ -1,0 +1,82 @@
+[
+	{
+		"articleImagePath": "assets/images/app-factory-ac-armin-live-1.jpg",
+		"song": "assets/music/maxlife-how-deep-is-your-love.mp3",
+		"title": "How deep is your love",
+		"autor": "Armin Van Buuren",
+		"content": "Maxlife",
+		"popupContent": "assets/popups/popup-song-1.html"
+	},
+	{
+		"articleImagePath": "assets/images/app-factory-ac-armin-live-3.jpg",
+		"song": "assets/music/maxlife-i-believe.mp3",
+		"title": "I believe",
+		"autor": "Armin Van Buuren",
+		"content": "Maxlife",
+		"popupContent": "assets/popups/popup-song-1.html"
+	},
+	{
+		"articleImagePath": "assets/images/app-factory-ac-armin-live-5.jpg",
+		"song": "assets/music/maxlife-i-need-you-now.mp3",
+		"title": "I need you now",
+		"autor": "Armin Van Buuren",
+		"content": "Maxlife",
+		"popupContent": "assets/popups/popup-song-1.html"
+	},
+	{
+		"articleImagePath": "assets/images/app-factory-ac-armin-live-6.jpg",
+		"song": "assets/music/maxlife-more-holy-spirit.mp3",
+		"title": "More holy spirit",
+		"autor": "Armin Van Buuren",
+		"content": "Maxlife",
+		"popupContent": "assets/popups/popup-song-1.html"
+	},
+	{
+		"articleImagePath": "assets/images/app-factory-ac-armin-live-1.jpg",
+		"song": "assets/music/maxlife-nothing-without-you.mp3",
+		"title": "Nothing without you",
+		"autor": "Armin Van Buuren",
+		"content": "Maxlife",
+		"popupContent": "assets/popups/popup-song-1.html"
+	},
+	{
+		"articleImagePath": "assets/images/app-factory-ac-armin-live-3.jpg",
+		"song": "assets/music/maxlife-pineapple.mp3",
+		"title": "Pineapple",
+		"autor": "Armin Van Buuren",
+		"content": "maxlife",
+		"popupContent": "assets/popups/popup-song-1.html"
+	},
+	{
+		"articleImagePath": "assets/images/app-factory-ac-armin-live-5.jpg",
+		"song": "assets/music/maxlife-to-worship-you-i-live-techno.mp3",
+		"title": "To worship you i live techno",
+		"autor": "Armin Van Buuren",
+		"content": "maxlife",
+		"popupContent": "assets/popups/popup-song-1.html"
+	},
+	{
+		"articleImagePath": "assets/images/app-factory-ac-armin-live-6.jpg",
+		"song": "assets/music/maxlife-you-are-holy.mp3",
+		"title": "You are holy",
+		"autor": "Armin Van Buuren",
+		"content": "maxlife",
+		"popupContent": "assets/popups/popup-song-1.html"
+	},
+	{
+		"articleImagePath": "assets/images/app-factory-ac-armin-live-3.jpg",
+		"song": "assets/music/maxlife-youre-all-i-want-tonight-summer-remix.mp3",
+		"title": "Youre all i want tonight summer remix",
+		"autor": "Armin Van Buuren",
+		"content": "maxlife",
+		"popupContent": "assets/popups/popup-song-1.html"
+	},
+	{
+		"articleImagePath": "assets/images/app-factory-ac-armin-live-5.jpg",
+		"song": "assets/music/maxlife-youre-all-i-want-tonight.mp3",
+		"title": "Youre all i want tonight",
+		"autor": "Armin Van Buuren",
+		"content": "maxlife",
+		"popupContent": "assets/popups/popup-song-1.html"
+	}
+]

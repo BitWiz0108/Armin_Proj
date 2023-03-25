@@ -1,0 +1,65 @@
+[
+	{
+		"articleImagePath": "assets/images/maxlife-video-thumb-2.jpg",
+		"title": "Live at Angel Stadium",
+		"autor": "Armin Van Buuren",
+		"liveDate": "4.1.23",
+		"previewVideo": "https://d2n08q6rraxvkh.cloudfront.net/1-maxlife/maxlife-web-bg-2022.mp4",
+		"fullVideo": "https://d2n08q6rraxvkh.cloudfront.net/1-maxlife/maxlife-you-are-holy.mp4",
+		"popupContent": "assets/popups/popup-song-1.html"
+	},
+	{
+		"articleImagePath": "assets/images/maxlife-video-thumb-2.jpg",
+		"title": "Video 2",
+		"autor": "Lorem ipsum",
+		"liveDate": "6.1.23",
+		"previewVideo": "https://d2n08q6rraxvkh.cloudfront.net/1-maxlife/maxlife-web-bg-2022.mp4",
+		"fullVideo": "https://d2n08q6rraxvkh.cloudfront.net/1-maxlife/maxlife-you-are-holy.mp4",
+		"popupContent": "assets/popups/popup-song-2.html"
+	},
+	{
+		"articleImagePath": "assets/images/maxlife-video-thumb-2.jpg",
+		"title": "Video 3",
+		"autor": "Lorem ipsum",
+		"liveDate": "8.1.23",
+		"previewVideo": "https://d2n08q6rraxvkh.cloudfront.net/1-maxlife/maxlife-web-bg-2022.mp4",
+		"fullVideo": "https://d2n08q6rraxvkh.cloudfront.net/1-maxlife/maxlife-you-are-holy.mp4",
+		"popupContent": "assets/popups/popup-song-2.html"
+	},
+	{
+		"articleImagePath": "assets/images/maxlife-video-thumb-2.jpg",
+		"title": "Video 4",
+		"autor": "Lorem ipsum",
+		"liveDate": "12.2.23",
+		"previewVideo": "https://d2n08q6rraxvkh.cloudfront.net/1-maxlife/maxlife-web-bg-2022.mp4",
+		"fullVideo": "https://d2n08q6rraxvkh.cloudfront.net/1-maxlife/maxlife-you-are-holy.mp4",
+		"popupContent": "assets/popups/popup-song-2.html"
+	},
+	{
+		"articleImagePath": "assets/images/maxlife-video-thumb-2.jpg",
+		"title": "Video 5",
+		"autor": "Lorem ipsum",
+		"liveDate": "1.3.23",
+		"previewVideo": "https://d2n08q6rraxvkh.cloudfront.net/1-maxlife/maxlife-web-bg-2022.mp4",
+		"fullVideo": "https://d2n08q6rraxvkh.cloudfront.net/1-maxlife/maxlife-you-are-holy.mp4",
+		"popupContent": "assets/popups/popup-song-2.html"
+	},
+	{
+		"articleImagePath": "assets/images/maxlife-video-thumb-2.jpg",
+		"title": "Video 6",
+		"autor": "Lorem ipsum",
+		"liveDate": "1.3.23",
+		"previewVideo": "https://d2n08q6rraxvkh.cloudfront.net/1-maxlife/maxlife-web-bg-2022.mp4",
+		"fullVideo": "https://d2n08q6rraxvkh.cloudfront.net/1-maxlife/maxlife-you-are-holy.mp4",
+		"popupContent": "assets/popups/popup-song-2.html"
+	},
+	{
+		"articleImagePath": "assets/images/maxlife-video-thumb-2.jpg",
+		"title": "Video 7",
+		"autor": "Lorem ipsum",
+		"liveDate": "1.3.23",
+		"previewVideo": "https://d2n08q6rraxvkh.cloudfront.net/1-maxlife/maxlife-web-bg-2022.mp4",
+		"fullVideo": "https://d2n08q6rraxvkh.cloudfront.net/1-maxlife/maxlife-you-are-holy.mp4",
+		"popupContent": "assets/popups/popup-song-2.html"
+	}
+]
